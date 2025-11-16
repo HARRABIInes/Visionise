@@ -318,7 +318,8 @@ MIT License - Libre d'utilisation
 
 **HARRABBI Ines**  
 GitHub: [@HARRABIInes](https://github.com/HARRABIInes)
-## collaborators
+## collaborateurs
+
 **Yesmien haddar**
 **Mostfa Rekik**
 ---
@@ -329,8 +330,4 @@ Pour les questions ou bugs, ouvre une **Issue** sur le repository GitHub.
 
 ---
 
-##  Remerciements
 
-- React team pour l'excellent framework
-- Vite pour le bundler ultra-rapide
-- Communauté open-source JavaScript

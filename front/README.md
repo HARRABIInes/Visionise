@@ -3,43 +3,42 @@
 ![Node](https://img.shields.io/badge/Node-16+-green?style=flat-square&logo=node.js)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
-## 📋 À Propos du Projet
+##  À Propos du Projet
 
 **Visionise** est une plateforme de gestion de projets moderne et intuitive permettant aux équipes de collaborer efficacement. Elle offre une vue complète des tâches, des membres de l'équipe, et de la progression des projets avec des visualisations avancées (Gantt, Kanban, Scrum).
 
 ### Fonctionnalités Clés
 
-✅ **Authentification & Profil Utilisateur**
+ **Authentification & Profil Utilisateur**
 - Inscription et connexion sécurisées
 - Gestion du profil personnel
 - Persistance des données avec localStorage
 
-✅ **Gestion des Projets**
+ **Gestion des Projets**
 - Créer, modifier, supprimer des projets
 - Vue détaillée avec titre et description
 - Barre de progression globale du projet
 - Gestion des membres d'équipe
 
-✅ **Gestion des Tâches**
+ **Gestion des Tâches**
 - Créer et modifier des tâches
 - Statuts multiples: Non démarré, En cours, Terminé, Annulé, Signalé
 - Barres de progression individuelles
 - Menu d'édition rapide avec 3 points (⋯)
 
-✅ **Visualisations Avancées**
-- 📊 **Diagramme de Gantt**: Timeline visuelle des tâches
-- 🎯 **Tableau Kanban**: Organisation par colonnes de statut
-- 🔄 **Vue Scrum**: Gestion des sprints et charges de travail
+ **Visualisations Avancées**
+- **Diagramme de Gantt**: Timeline visuelle des tâches
+- **Tableau Kanban**: Organisation par colonnes de statut
+- **Vue Scrum**: Gestion des sprints et charges de travail
 
-✅ **Design & Accessibilité**
-- 🌙 Mode sombre/clair automatique
-- 📱 Design responsive (mobile, tablette, desktop)
-- ♿ Support de l'accessibilité (contraste élevé, réduction des animations)
-- 🎨 Thème beige/vert élégant avec transitions fluides
+ **Design & Accessibilité**
+-  Design responsive (mobile, tablette, desktop)
+-  Support de l'accessibilité (contraste élevé, réduction des animations)
+-  Thème beige/vert élégant avec transitions fluides
 
 ---
 
-## 🛠️ Stack Technologique
+##  Stack Technologique
 
 ### Frontend
 
@@ -54,30 +53,30 @@
 
 ### Pourquoi Ces Technologies?
 
-#### 🚀 React 18+
+####  React 18+
 - **Composants réutilisables**: Architecture modulaire et maintenable
 - **Hooks modernes**: useState, useContext, useEffect pour la logique déclarative
 - **Performance**: Rendu efficace avec Virtual DOM
 - **Écosystème riche**: Librairies et outils abondants
 
-#### 🔀 React Router DOM 6+
+####  React Router DOM 6+
 - **Routage dynamique**: Gestion élégante des routes (ex: `/project/:id`)
 - **Navigation sans rechargement**: SPA fluide
 - **Gestion d'états de route**: useLocation() pour logique conditionnelle
 
-#### 🎯 Context API
+####  Context API
 - **Pas de dépendance externe**: Redux trop lourd pour ce besoin
 - **Parfait pour l'auth**: Gestion simple du statut connecté/déconnecté
 - **localStorage**: Persistance automatique de l'état utilisateur
 - **Performance suffisante**: Pas de re-render excessif
 
-#### ⚡ Vite
+####  Vite
 - **Démarrage ultra-rapide**: HMR (Hot Module Replacement) en < 100ms
 - **Build optimisé**: Génère du code produit minimal et performant
 - **Développement moderne**: ES6 natif sans transpilation complexe
 - **Temps de développement réduit**: Feedback immédiat des changements
 
-#### 🎨 CSS3 Vanilla
+#### CSS3 Vanilla
 - **Pas de dépendance CSS**: Réduction du bundle size
 - **Variables CSS**: Thématisation facile (dark mode)
 - **Flexbox & Grid**: Layout moderne et responsive
@@ -85,7 +84,7 @@
 
 ---
 
-## 🏗️ Architecture du Projet
+##  Architecture du Projet
 
 ```
 Visionise/
@@ -130,7 +129,7 @@ Visionise/
 
 ---
 
-## 🔐 Gestion de l'État
+##  Gestion de l'État
 
 ### Context API - AuthContext
 
@@ -155,7 +154,7 @@ Visionise/
 
 ---
 
-## 🎨 Design & Styling
+##  Design & Styling
 
 ### Couleurs
 
@@ -185,7 +184,7 @@ Activation automatique via `@media (prefers-color-scheme: dark)`
 
 ---
 
-## 🚀 Installation & Démarrage
+##  Installation & Démarrage
 
 ### Prérequis
 
@@ -226,26 +225,26 @@ npm run preview
 
 ---
 
-## 📊 Cas d'Usage
+##  Cas d'Usage
 
-### 1️⃣ Créer un Projet
+### 1️ Créer un Projet
 1. Se connecter
 2. Cliquer sur "Nouveau Projet" sur le dashboard
 3. Remplir titre et description
 4. Voir immédiatement sur le dashboard
 
-### 2️⃣ Ajouter des Tâches
+### 2️ Ajouter des Tâches
 1. Ouvrir un projet
 2. Cliquer "Ajouter une tâche"
 3. Définir titre, description, statut
 4. La tâche apparaît dans la liste
 
-### 3️⃣ Visualiser le Gantt
+### 3️ Visualiser le Gantt
 1. Dans un projet, cliquer l'onglet "Gantt"
 2. Timeline visuelle des tâches
 3. Voir les dépendances et progression
 
-### 4️⃣ Gérer les Statuts
+### 4️ Gérer les Statuts
 1. Cliquer le menu "⋯" d'une tâche
 2. "Éditer"
 3. Changer le statut dropdown
@@ -253,7 +252,7 @@ npm run preview
 
 ---
 
-## 🔄 Flux de Données
+##  Flux de Données
 
 ```
 [AuthContext] 
@@ -275,7 +274,7 @@ Update state + localStorage
 
 ---
 
-## 🎯 Fonctionnalités Futures
+##  Fonctionnalités Futures
 
 - [ ] Intégration avec backend API (Node.js/Express)
 - [ ] Base de données (MongoDB/PostgreSQL)
@@ -287,48 +286,50 @@ Update state + localStorage
 
 ---
 
-## 📱 Optimisations
+##  Optimisations
 
 ### Performance
-- ✅ Code splitting automatique avec Vite
-- ✅ Lazy loading des routes
-- ✅ CSS variables pour transitions GPU
-- ✅ Minification et compression
+- Code splitting automatique avec Vite
+-  Lazy loading des routes
+-  CSS variables pour transitions GPU
+-  Minification et compression
 
 ### Accessibilité
-- ✅ Semantic HTML5
-- ✅ ARIA labels sur éléments interactifs
-- ✅ Focus visible sur tous les boutons
-- ✅ Contraste WCAG AA respecté
+- Semantic HTML5
+- ARIA labels sur éléments interactifs
+- Focus visible sur tous les boutons
+- Contraste WCAG AA respecté
 
 ### Compatibilité Navigateurs
-- ✅ Chrome/Edge (Chromium)
-- ✅ Firefox
-- ✅ Safari (iOS 13+)
-- ✅ Fallbacks CSS pour anciennes versions
+- Chrome/Edge (Chromium)
+- Firefox
+- Safari (iOS 13+)
+- Fallbacks CSS pour anciennes versions
 
 ---
 
-## 📝 License
+## License
 
 MIT License - Libre d'utilisation
 
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 **HARRABBI Ines**  
 GitHub: [@HARRABIInes](https://github.com/HARRABIInes)
-
+## collaborators
+**Yesmien haddar**
+**Mostfa Rekik**
 ---
 
-## 💬 Support
+##  Support
 
 Pour les questions ou bugs, ouvre une **Issue** sur le repository GitHub.
 
 ---
 
-## 🙏 Remerciements
+##  Remerciements
 
 - React team pour l'excellent framework
 - Vite pour le bundler ultra-rapide
